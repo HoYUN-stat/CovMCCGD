@@ -20,7 +20,6 @@ m::Int64 = 500    #Resolution to plot the covariance
 x = loc_grid(n, r, λ=λ);
 # Generate Stochastic Process
 process = IntegratedBM()
-# process = BrownianBridge()
 y = perturb_process(x, σ; process=process);
 
 # Plot the Brownian motions
