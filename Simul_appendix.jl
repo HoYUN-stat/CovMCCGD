@@ -1,6 +1,5 @@
 # Load the necessary packages
 using CairoMakie #v0.10.12
-using Dates
 using Random: seed!
 
 # Include the necessary Julia files
@@ -21,7 +20,6 @@ m::Int64 = 500    #Resolution to plot the covariance
 x = loc_grid(n, r, λ=λ);
 # Generate Stochastic Process
 process = BrownianMotion()
-# process = BrownianBridge()
 y = perturb_process(x, σ; process=process);
 
 # Plot the Brownian motions
