@@ -1,8 +1,5 @@
 # Load the necessary packages
 using CairoMakie #v0.10.12
-# using LaTeXStrings #v1.3.1
-# using Distributions #v0.25.108
-using Dates
 using Random: seed!
 
 # Include the necessary Julia files
