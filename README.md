@@ -5,7 +5,7 @@ JULIA package to perform covariance smoothing using the TReK (Tensorized-and-Res
 ## Reference
 If you use this package, please cite the paper: 
 
-Yun, H. and Panaretos, V. M. (2025). Fast and Cheap Covariance Smoothing. arXiv preprint arXiv:2501.08265.
+Yun, H. and Panaretos, V. M. (2025). Fast and Cheap Covariance Smoothing. arXiv preprint [arXiv:2501.08265](https://arxiv.org/abs/2501.08265).
 
 #### BibTeX
 
